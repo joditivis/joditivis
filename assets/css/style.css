@@ -1,60 +1,9 @@
-.nav {
-    text-align: right;
-    height: 70px;
-    line-height: 70px;
+nav {
+    background-color: #eeeeee;
 }
 
-.social-menu {
-    margin: 15px 30px 0 0;
-}
-
-.social-menu a {
-    display: inline;
-    clear: right;
-    text-decoration: none;
-    color: rgb(139, 139, 139);
-    margin: 0 2px;
-    line-height: 70px;
-}
-
-/* .menu-label {
-    margin: 0 40px 0 0;
-    font-size: 26px;
-    line-height: 70px;
-    display: none;
-    width: 26px;
-    float: right;
-    color: #F2F2F2;
-} */
-
-/* #toggle {
-    display: none;
-} */
-
-.nav-menu {
-    margin: 15px 30px 0 30px;
-}
-
-.nav-menu a {
-    display: inline;
-    clear: left;
-    text-decoration: none;
-    color: rgb(139, 139, 139);
-    margin: 0 15px;
-    line-height: 70px;
-    font-size: 16px;
-}
-
-.nav-menu a:hover {
-    color: rgb(41, 41, 41);
-}
-
-.nav-link {
-    font-size: 20px;
-}
-
-.nav-link:hover {
-    color: rgb(41, 41, 41);
+.material-icons {
+    color: #000000;
 }
 
 .top-img {
@@ -62,10 +11,78 @@
     position: relative;
 }
 
+/* text inside header photo */
 .top-left {
     position: absolute;
     top: 11rem;
     left: 12rem;
     font-size: 36px;
-    color: rgb(139, 139, 139);
+    color: rgb(0, 0, 0);
   }
+
+  .webdev {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 35px;
+  }
+
+  .my-photo {
+      width: 435px;
+      height: 585px;
+  }
+
+  #aboutme {
+      color: black;
+  }
+
+.focus {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 27px;
+}
+
+#resume-btn {
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.projects {
+    margin-top: 5rem;
+    margin-bottom: 10px;
+    font-size: 27px;
+}
+
+.app-title {
+    text-align: center;
+    font-size: 18px;
+}
+
+.game-img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inner {
+    padding: 20px;
+} 
+
+.links {
+    text-align: center;
+    color: #000000;
+    font-size: 16px;
+}
+
+  /* FOOTER */
+.page-footer {
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.right {
+    margin-right: 2.2rem;
+    font-size: 18px;
+    text-decoration: none;
+}
