@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>jodi tivis</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Compiled and minified CSS - Materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Import Google Icon Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Import materialize.css -->
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.css" media="screen,projection" />
+
+    <!-- Website is optimized for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Font Awesome - for icons -->
+    <script src="https://kit.fontawesome.com/462f69d006.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Top Navbar -->
+    <nav class="white">
+        <div class="nav-wrapper">
+            <div class="container-lg">
+                <a href="#!" class="black-text brand-logo">jodi tivis</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="black-text" href="index.html">home</a></li>
+                    <li><a class="black-text" href="index.html#about">about</a></li>
+                    <li><a class="black-text" href="assets/resume/resume1.pdf">resume</a></li>
+                    <li><a class="black-text" href="index.html#project-section">projects</a></li>
+                    <li><a class="black-text" href="contact.html">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- mobile view navbar menu -->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">home</a></li>
+        <li><a href="index.html#about">about</a></li>
+        <li><a href="index.html#resume">resume</a></li>
+        <li><a href="index.html#project-section">projects</a></li>
+        <li><a href="contact.html">contact</a></li>
+    </ul>
+
+
+    <div class="container-lg contact-form">
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="mt-0 contact">Contact</h4>
+                <div class="contact-text">Want to collaborate or learn more?
+                    <br>
+                    I would love to hear from you!
+                    <br>
+                    Please leave a detailed message with what you are looking for and I will be in touch with you within
+                    48 hours.
+                    <br>
+                    Thank you!</div>
+                <form>
+                    <div class="input-field">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Full Name*</label>
+                    </div>
+                    <div class="input-field">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Email*</label>
+                    </div>
+                    <div class="form-group">
+                        <label class="contact-labels" for="contactMessage">Message</label>
+                        <textarea class="form-control" id="contactMessage" rows="3"></textarea>
+                    </div>
+                    <button type="submit" id="submit-contact" class="btn-outline-dark" href="index.html">Submit</button>
+                </form>
+                <br>
+                <span id="thank-you-msg"></span>
+
+                <br>
+                <hr>
+                <br>
+
+                <div class="email-me">Email Me</div>
+                <div class="email-info">joditivis@gmail.com</div>
+                <br>
+                <div class="call-me">Call Me</div>
+                <div class="call-info">719-355-9114</div>
+            </div>
+
+            <div class="col-md-6">
+                <img src="assets/images/room.jpeg" width="460px" height="640px" class="z-depth-4 room"
+                    alt="room with desk">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="black-text footer-copyright">
+            <div class="container text-align-center">
+                <div class="social-links">
+                    <a class="black-text text-lighten-4 icon" href="https://github.com/joditivis" target="_blank"><i
+                        class="fab fa-github"></i></a>
+                    <a class="black-text text-lighten-4 icon" href="https://www.linkedin.com/in/jodi-tivis-01ba89191/"
+                        target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="black-text text-lighten-4 icon" href="https://www.facebook.com/jodi.tivis"
+                        target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="black-text text-lighten-4 icon" href="https://www.instagram.com/joditivis/"
+                        target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="copyright">
+                    © 2020 - Jodi Tivis
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <!-- Slick JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Local javascript -->
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>

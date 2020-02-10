@@ -1,5 +1,10 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
 nav {
     background-color: #eeeeee;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .material-icons {
@@ -12,33 +17,60 @@ nav {
 }
 
 /* text inside header photo */
-.top-left {
+/* .top-left {
     position: absolute;
-    top: 11rem;
-    left: 12rem;
-    font-size: 36px;
-    color: rgb(0, 0, 0);
-  }
+    top: 14rem;
+    left: 5rem;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+} */
 
-  .webdev {
-      margin-top: 30px;
-      margin-bottom: 30px;
-      font-size: 35px;
-  }
+.tag-line1 {
+    margin-top: 3rem;
+    font-size: 45px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
 
-  .my-photo {
-      width: 435px;
-      height: 585px;
-  }
+.tag-line2 {
+    font-size: 35px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #818181;
+}
 
-  #aboutme {
-      color: black;
-  }
+.about-me-container {
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+}
+
+.my-photo {
+    width: 415px;
+    height: 565px;
+}
+
+#aboutme {
+    margin-top: 6rem;
+    color: black;
+    font-size: 18px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.aboutme-text {
+    font-size: 16px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
 
 .focus {
     text-align: center;
     margin-top: 5rem;
-    font-size: 27px;
+    font-size: 30px;
+}
+
+.code-text {
+    font-size: 16px;
+}
+
+.keyboard-photo {
+    margin-top: 2rem;
 }
 
 #resume-btn {
@@ -46,10 +78,14 @@ nav {
     padding: 10px;
 }
 
+.resume-container {
+    margin-bottom: 6rem;
+}
+
 .projects {
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-bottom: 10px;
-    font-size: 27px;
+    font-size: 30px;
 }
 
 .app-title {
@@ -64,7 +100,7 @@ nav {
 }
 
 .inner {
-    padding: 20px;
+    padding: 30px;
 } 
 
 .links {
@@ -81,8 +117,37 @@ nav {
     background-color: #ffffff;
 }
 
-.right {
-    margin-right: 2.2rem;
-    font-size: 18px;
+.icon {
+    margin: 1rem;
+    /* margin-right: .5rem; */
+    font-size: 22px;
     text-decoration: none;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.copyright, .social-links {
+    text-align: center;
+}
+
+/* CONTACT PAGE */
+.contact-form {
+    margin-top: 5rem;
+}
+
+#submit-contact {
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.email-me, .call-me {
+    font-size: 20px;
+    /* margin-left: 3rem; */
+    font-weight: bold;
+}
+
+.room {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
 }

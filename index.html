@@ -7,7 +7,8 @@
     <title>jodi tivis</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Compiled and minified CSS - Materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -48,9 +49,10 @@
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a class="black-text" href="index.html">home</a></li>
-                    <li><a class="black-text" href="#aboutme">about</a></li>
-                    <li><a class="black-text" href="#resume">resume</a></li>
-                    <li><a class="black-text" href="#contact">contact</a></li>
+                    <li><a class="black-text" href="#about">about</a></li>
+                    <li><a class="black-text" href="assets/resume/resume1.pdf">resume</a></li>
+                    <li><a class="black-text" href="#project-section">projects</a></li>
+                    <li><a class="black-text" href="contact.html">contact</a></li>
                 </ul>
             </div>
         </div>
@@ -58,73 +60,87 @@
     <!-- mobile view navbar menu -->
     <ul class="sidenav" id="mobile-demo">
         <li><a href="index.html">home</a></li>
-        <li><a href="#aboutme-jumbo">about</a></li>
+        <li><a href="#about">about</a></li>
         <li><a href="#resume">resume</a></li>
-        <li><a href="#contact">contact</a></li>
+        <li><a href="#project-section">projects</a></li>
+        <li><a href="contact.html">contact</a></li>
     </ul>
 
     <!-- header image -->
-    <div style="position: relative">
-        <img src="assets/images/desk2.jpeg" class="top-img z-depth-4" alt="ocean">
-        <div class="top-left">create your web identity</div>
-    </div>
+    <img src="assets/images/desktop.jpeg" class="top-img z-depth-4" alt="desk with computer and keyboard">
 
-    <div class="center-align webdev">front-end web developer</div>
+    <div class="center-align tag-line1" id="about">create your web identity</div>
+    <div class="center-align tag-line2">dream | envision | develop</div>
 
     <!-- About me section -->
-    <div class="container-lg">
+    <div class="container-lg about-me-container">
         <div class="row">
             <div class="col-md-6">
                 <img src="assets/images/me2.jpg" class="z-depth-4 my-photo" alt="Personal Photo">
             </div>
             <div class="col-md-6">
-                <p data-aos="fade-left" data-aos-offset="400" data-aos-easing="ease-in-sine" data-aos-duration="1000" id="aboutme">Hi! I'm Jodi
-                </p>
+                <div data-aos="fade-left" data-aos-offset="400" data-aos-easing="ease-in-sine" data-aos-duration="1000"
+                    id="aboutme">Hi! I'm Jodi,</div>
+                <br>
+                <div class="aboutme-text">A front-end web developer from Fort Collins, Colorado with a love for creating
+                    visually rich and aesthetic experiences for users.
+                    <br>
+                    <br>
+                    First impressions are a real thing, especially for a website. I love the nitty-gritty details of
+                    code that go into making a website stand out to clients and users.
+                    <br>
+                    <br>
+                    When I'm not coding and drinking 4 cups of coffee a day, you can find me doing anything creative, enjoying the great outdoors,
+                    taking up a few photography gigs, or exploring the world with my fiancé.
+                    <br>
+                    <br>
+                </div>
             </div>
         </div>
     </div>
+
+    <hr class="container">
 
     <!-- Resume + Experience section -->
-    <div class="container-lg">
+    <div class="container-lg resume-container">
         <div class="row">
-        <div class="col-md-8">
-            <div class="display-4 focus">focus + experience</div>
+            <div class="col-md-8">
+                <div class="display-4 focus" id="resume">focus + experience</div>
+                <br>
                 <p class="lead code-text" data-aos="fade-up" data-aos-duration="2000">
-                    Aspiring Full Stack Web Developer with a focus and interest in creating a
-                    visually
-                    rich and aesthetic
-                    experience for users.
-                    I will receive a certificate in Full Stack Web Development through the University of Denver,
-                    with a strong work ethic and full belief in wholehearted effort and willingness to complete whatever
-                    task is
-                    placed ahead of me; I am known as a determined creative, and strong team player, with an abundance
-                    of
-                    optimism.
+                    I recieved a certificate in Full Stack Web Development through the University of Denver. Obtaining
+                    skills
+                    in HTML5, CSS3, Bootstrap, JavaScript, jQuery, Firebase, Node JS, MySQL, Express, Sequelize,
+                    Handlebars, Mongo DB, PHP, and React JS.
                     <br>
-                    I applied aspects of agile development in a recent project where I worked in a team of four to
-                    develop a web app that helps users keep track of their holiday shopping by being able to create a
-                    list of
-                    individuals to shop for, save all of the gifts the user wants to purchase, and keep everything
-                    organized all
-                    in one place.
+                    <br>
+                    My main focus and specialities are in HTML5, CSS3, and JavaScript/jQuery. I absolutely love creating well thoughtout UI designs and UX functionality.
+                    <br>
+                    <br>
+                    I hold a strong work ethic, full belief in wholehearted effort, and a willingness to complete
+                    whatever task is placed ahead of me; I am known as a determined creative, and strong team player, with an
+                    abundance of optimism.
+                    <br>
                     <br>
                     I enjoy problem-solving with others, as well as meeting deadlines and goals. I am excited to be
-                    easily
-                    adaptable as well
-                    as use newly obtained skill sets to best serve any position.</p>
-                <a class="resume" data-aos="fade-up" data-aos-duration="3000" href="assets/resume/resume1.pdf" target="_blank"><button class="btn-outline-dark" id="resume-btn"
-                        type="button">Full Resume</button></a>
+                    easily adaptable as well as use newly obtained skill sets to best serve any position.</p>
+                <a class="resume" data-aos="fade-up" data-aos-duration="3000" href="assets/resume/resume1.pdf"
+                    target="_blank"><button class="btn-outline-dark" id="resume-btn" type="button">Full
+                        Resume</button></a>
             </div>
             <div class="col-md-4">
-                <img src="assets/images/keyboard.jpeg" width="350px" height="500px" class="z-depth-4 keyboard-photo" data-aos="fade-up" data-aos-duration="2000" alt="computer keyboard">
+                <img src="assets/images/things.jpeg" width="375px" height="525px" class="z-depth-4 keyboard-photo"
+                    data-aos="fade-up" data-aos-duration="2000" alt="computer keyboard">
             </div>
         </div>
     </div>
 
-    <!-- Displayed projects section -->
-    <div class="center-align projects">a few recent projects</div>
+    <hr class="container">
 
-    <div class="container-lg" data-aos="fade-up" data-aos-duration="2000">
+    <!-- Displayed projects section -->
+    <div class="center-align projects" id="project-section">a few recent projects</div>
+
+    <div class="container-lg">
         <div class="gallery gallery-responsive portfolio-slider">
             <div class="inner">
                 <h6 class="app-title">restaurant finder</h6>
@@ -160,20 +176,22 @@
     <br>
     <br>
     <br>
-    <!-- Footer -->
     <footer class="page-footer">
         <div class="black-text footer-copyright">
-            <div class="container">
-                © 2020 Jodi Tivis
-                <a class="black-text text-lighten-4 right" href="https://www.instagram.com/joditivis/"
-                    target="_blank"><i class="fab fa-instagram"></i></a>
-                <a class="black-text text-lighten-4 right" href="https://www.facebook.com/jodi.tivis" target="_blank"><i
-                        class="fab fa-facebook-f"></i></a>
-                <a class="black-text text-lighten-4 right" href="https://www.linkedin.com/in/jodi-tivis-01ba89191/"
-                    target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                <a class="black-text text-lighten-4 right" href="https://github.com/joditivis" target="_blank"><i
-                        class="fab fa-github"></i></a>
-
+            <div class="container text-align-center">
+                <div class="social-links">
+                    <a class="black-text text-lighten-4 icon" href="https://github.com/joditivis" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                    <a class="black-text text-lighten-4 icon" href="https://www.linkedin.com/in/jodi-tivis-01ba89191/"
+                        target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="black-text text-lighten-4 icon" href="https://www.facebook.com/jodi.tivis"
+                        target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="black-text text-lighten-4 icon" href="https://www.instagram.com/joditivis/"
+                        target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="copyright">
+                    © 2020 - Jodi Tivis
+                </div>
             </div>
         </div>
     </footer>
