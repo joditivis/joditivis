@@ -174,3 +174,97 @@ nav {
     margin-left: 5rem;
     margin-bottom: 3rem;
 }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 378px) {
+    .tag-line1 {
+        font-size: 29px;
+    }
+    .tag-line2 {
+        font-size: 20px;
+    }
+
+    .my-photo {
+        width: 315px;
+        height: 430px;
+    }
+
+    #aboutme {
+        font-size: 18px;
+    }
+
+    .aboutme-text {
+        font-size: 16px;
+    }
+
+    .focus {
+        font-size: 29px;
+    }
+
+    .code-text {
+        font-size: 16px;
+    }
+
+    .keyboard-photo {
+        width: 310px;
+        height: 430px;
+    }
+
+    .projects {
+        font-size: 29px;
+    }
+
+    .room {
+        width: 310px;
+        height: 425px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .tag-line1 {
+        font-size: 29px;
+    }
+    .tag-line2 {
+        font-size: 20px;
+    }
+    
+    .my-photo {
+        width: 315px;
+        height: 430px;
+    }
+
+    #aboutme {
+        margin-top: 1rem;
+        font-size: 18px;
+    }
+
+    .aboutme-text {
+        font-size: 16px;
+    }
+
+    .focus {
+        font-size: 29px;
+    }
+
+    .code-text {
+        font-size: 16px;
+    }
+
+    .keyboard-photo {
+        margin-top: 11rem;
+        width: 250px;
+        height: 370px;
+    }
+
+    .projects {
+        font-size: 29px;
+    }
+
+    .room {
+        width: 310px;
+        height: 425px;
+        margin-left: 2rem;
+        margin-top: 8rem;
+    }
+}
