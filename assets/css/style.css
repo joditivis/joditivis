@@ -23,7 +23,7 @@ nav {
 }
 
 .tag-line2 {
-    font-size: 35px;
+    font-size: 32px;
     font-family: 'Nanum Gothic', sans-serif;
     color: #818181;
 }
@@ -41,7 +41,7 @@ nav {
 #aboutme {
     margin-top: 6rem;
     color: black;
-    font-size: 18px;
+    font-size: 22px;
     font-family: 'Nanum Gothic', sans-serif;
 }
 
@@ -53,6 +53,7 @@ nav {
 .focus {
     text-align: center;
     margin-top: 5rem;
+    margin-bottom: 1rem;
     font-size: 30px;
 }
 
@@ -75,7 +76,7 @@ nav {
 
 .projects {
     margin-top: 4rem;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 30px;
 }
 
@@ -98,6 +99,40 @@ nav {
     text-align: center;
     color: #000000;
     font-size: 16px;
+}
+
+/* text overlay on app photos */
+.photo-container {
+    position: relative;
+    /* width: 50%; */
+}
+  
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(233, 233, 233, 0.89);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .7s ease;
+}
+  
+.photo-container:hover .overlay {
+    height: 100%;
+}
+  
+.text {
+    white-space: nowrap; 
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
   /* FOOTER */
