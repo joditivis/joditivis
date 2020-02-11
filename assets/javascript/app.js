@@ -77,12 +77,27 @@ $("#submit-contact").on("click", function (event) {
         message: message,
     });
 
+    // if user doesn't fill in all fields display message
+  if (!name) {
+    $("#first-error-message").text("Name is required");
+    return;
+  } else if (!email) {
+    $("#first-error-message").text("Email is required");
+    return;
+  } else if (!message) {
+    $("#first-error-message").text("Please fill in the message box with what you would like to be contacted about");
+    return;
+  } else {
+    $("#first-error-message").text("");
+  }
+
     // empties form after user clicks submit
     $("#full-name").val("");
     $("#email").val("");
     $("#contactMessage").val("");
 
     var thankYouMsg = $("#thank-you-msg");
+
     thankYouMsg.append("Thanks! I'll be in touch!");
 });
 
