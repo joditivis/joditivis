@@ -16,15 +16,6 @@ nav {
     position: relative;
 }
 
-/* text inside header photo */
-/* .top-left {
-    position: absolute;
-    top: 14rem;
-    left: 5rem;
-    font-size: 50px;
-    color: rgb(255, 255, 255);
-} */
-
 .tag-line1 {
     margin-top: 3rem;
     font-size: 45px;
@@ -111,7 +102,6 @@ nav {
 
   /* FOOTER */
 .page-footer {
-    /* position: fixed; */
     bottom: 0;
     width: 100%;
     background-color: #ffffff;
@@ -119,7 +109,6 @@ nav {
 
 .icon {
     margin: 1rem;
-    /* margin-right: .5rem; */
     font-size: 22px;
     text-decoration: none;
     text-align: center;
@@ -142,7 +131,6 @@ nav {
 
 .email-me, .call-me {
     font-size: 20px;
-    /* margin-left: 3rem; */
     font-weight: bold;
 }
 
