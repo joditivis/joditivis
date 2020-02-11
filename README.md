@@ -1,6 +1,6 @@
 # Personal Website/Portfolio
 
-Check it out [here](website)
+Check it out [here](https://joditivis.github.io/joditivis/)
 
 ---
 
