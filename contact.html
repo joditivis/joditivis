@@ -50,7 +50,7 @@
                 <ul class="right hide-on-med-and-down">
                     <li><a class="black-text" href="index.html">Home</a></li>
                     <li><a class="black-text" href="index.html#about">About</a></li>
-                    <li><a class="black-text" href="assets/resume/resume1.pdf">Resume</a></li>
+                    <li><a class="black-text" href="assets/resume/JodiTivis-Resume.pdf">Resume</a></li>
                     <li><a class="black-text" href="index.html#project-section">Projects</a></li>
                     <li><a class="black-text" href="contact.html">Contact</a></li>
                 </ul>
@@ -71,42 +71,37 @@
         <div class="row">
             <div class="col-md-6">
                 <h4 class="mt-0 contact">Contact</h4>
-                <div class="contact-text">Want to collaborate or learn more?
-                    <br>
+                <div class="contact-text">
                     I would love to hear from you!
                     <br>
-                    Please leave a detailed message with what you are looking for and I will be in touch with you within
-                    48 hours.
+                    Please leave a detailed message and I will be in touch with you soon.
+                </div>
                     <br>
-                    Thank you!</div>
-                <form>
-                    <div class="input-field">
-                        <input id="full-name" type="text" class="validate">
-                        <label for="full-name">Full Name*</label>
-                    </div>
-                    <div class="input-field">
-                        <input id="email" type="text" class="validate">
-                        <label for="email">Email*</label>
-                    </div>
-                    <div class="form-group">
-                        <label class="contact-labels" for="contactMessage">Message</label>
-                        <textarea class="form-control" id="contactMessage" rows="3"></textarea>
-                    </div>
-                    <button type="submit" id="submit-contact" class="btn-outline-dark" href="index.html">Submit</button>
-                </form>
-                <br>
-                <span id="first-error-message"></span>
-                <span id="thank-you-msg"></span>
+                    <form id="my-form" action="https://formspree.io/xknvaqaj" method="POST">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" name="name" />
+                        </div>
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="email" name="email" />
+                        </div>
+                        <div class="input-field">
+                            <label>Message</label>
+                            <input type="text" name="message" />
+                        </div>
+                        <button id="submit-contact" class="btn-outline-dark">Submit</button>
+                        <p id="my-form-status"></p>
+                    </form>
+                    <br>
+                    <hr>
+                    <br>
 
-                <br>
-                <hr>
-                <br>
-
-                <div class="email-me">Email Me</div>
-                <div class="email-info">joditivis@gmail.com</div>
-                <br>
-                <div class="call-me">Call Me</div>
-                <div class="call-info">719-355-9114</div>
+                    <div class="email-me">Email Me</div>
+                    <div class="email-info">joditivis@gmail.com</div>
+                    <br>
+                    <div class="call-me">Call Me</div>
+                    <div class="call-info">719-355-9114</div>
             </div>
 
             <div class="col-md-6">
@@ -145,12 +140,52 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <!-- Firebase -->
-    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-database.js"></script>
-
     <!-- Local javascript -->
     <script src="assets/javascript/app.js"></script>
+
+    <!-- Formspree -->
+    <script>
+        window.addEventListener("DOMContentLoaded", function() {
+      
+          var form = document.getElementById("my-form");
+          var button = document.getElementById("submit-contact");
+          var status = document.getElementById("my-form-status");
+      
+          // Success and Error functions for after the form is submitted
+          function success() {
+            form.reset();
+            button.style = "display: none ";
+            status.innerHTML = "Thanks!";
+          }
+      
+          function error() {
+            status.innerHTML = "Oops! There was a problem.";
+          }
+      
+          // handle the form submission event
+          form.addEventListener("submit", function(ev) {
+            ev.preventDefault();
+            var data = new FormData(form);
+            ajax(form.method, form.action, data, success, error);
+          });
+        });
+        
+        // helper function for sending an AJAX request
+        function ajax(method, url, data, success, error) {
+          var xhr = new XMLHttpRequest();
+          xhr.open(method, url);
+          xhr.setRequestHeader("Accept", "application/json");
+          xhr.onreadystatechange = function() {
+            if (xhr.readyState !== XMLHttpRequest.DONE) return;
+            if (xhr.status === 200) {
+              success(xhr.response, xhr.responseType);
+            } else {
+              error(xhr.status, xhr.response, xhr.responseType);
+            }
+          };
+          xhr.send(data);
+        }
+      </script>
 
 </body>
 
