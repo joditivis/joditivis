@@ -5,7 +5,7 @@ Check it out [here](https://joditivis.github.io/joditivis/)
 ---
 
 ## About:
-A simple portfolio webpage created with HTML5, CSS3, Bootstrap, Materialize, JavaScript, jQuery, and Firebase Database
+A simple portfolio webpage created with HTML5, CSS3, Bootstrap, Materialize, JavaScript, jQuery, and Formspree
 
 ---
 
@@ -16,7 +16,7 @@ A simple portfolio webpage created with HTML5, CSS3, Bootstrap, Materialize, Jav
 * Materialize - web styling framework (https://materializecss.com/getting-started.html)
 * JavaScript - programming language
 * jQuery - javascript library (https://jquery.com/)
-* Firebase Database - used to capture and save information entered into contact form (https://firebase.google.com/)
+* Formspree - (https://formspree.io/)
 * AOS - animate on scroll library (https://michalsnik.github.io/aos/)
 * Slick Carousel - (https://kenwheeler.github.io/slick/)
 * Google Fonts - (https://fonts.google.com/)
