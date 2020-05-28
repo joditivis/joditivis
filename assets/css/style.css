@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Nanum Gothic', sans-serif;
 }
@@ -5,6 +9,16 @@ body {
 nav {
     background-color: #eeeeee;
     font-family: 'Nanum Gothic', sans-serif;
+    height: 140px;
+}
+
+.name-logo {
+    height: 150px;
+    width: 190px;
+}
+
+.top-menu {
+    margin-top: 40px;
 }
 
 .material-icons {
@@ -14,39 +28,44 @@ nav {
 .top-img {
     width: 100%;
     position: relative;
+    margin-bottom: 5rem;
 }
 
 .tag-line1 {
-    margin-top: 3rem;
-    font-size: 45px;
+    margin-top: 5rem;
+    font-size: 35px;
     font-family: 'Nanum Gothic', sans-serif;
 }
 
 .tag-line2 {
-    font-size: 32px;
+    margin-bottom: 3rem;
+    font-size: 25px;
     font-family: 'Nanum Gothic', sans-serif;
     color: #818181;
 }
 
 .about-me-container {
+    padding: 20px;
     margin-top: 5rem;
     margin-bottom: 6rem;
+    background-color: #161A23;
 }
 
 .my-photo {
     width: 415px;
-    height: 565px;
+    height: 640px;
 }
 
 #aboutme {
-    margin-top: 6rem;
-    color: black;
-    font-size: 22px;
+    margin-top: 8rem;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
     font-family: 'Nanum Gothic', sans-serif;
 }
 
 .aboutme-text {
     font-size: 16px;
+    color: rgb(255, 255, 255);
     font-family: 'Nanum Gothic', sans-serif;
 }
 
