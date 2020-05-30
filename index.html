@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Jodi Creative</title>
+    <title>Jodi Tivis</title>
+
+    <!--  Favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
 
     <!-- Bootstrap -->
@@ -69,24 +71,24 @@
 
     <!-- header image -->
     <div class="container-lg">
-        <div class="center-align tag-line1" id="about">Creating Web Identity</div>
+        <div class="center-align tag-line1">Creating Web Identity</div>
         <div class="center-align tag-line2">Dream | Envision | Develop</div>
 
         <div class="row">
             <div class="col-md-4">
-                <img src="assets/images/camera-lens.jpg" class="top-img z-depth-4" alt="camera lens">
+                <img src="assets/images/camera-lens.jpg" data-aos="fade-right" data-aos-duration="1500" class="top-img z-depth-4" alt="camera lens">
             </div>
             <div class="col-md-4">
-                <img src="assets/images/keyboard.jpg" class="top-img z-depth-4" alt="keyboard">
+                <img src="assets/images/keyboard.jpg" data-aos="fade-up" data-aos-duration="1500" class="top-img z-depth-4" alt="keyboard">
             </div>
             <div class="col-md-4">
-                <img src="assets/images/phone-coffee.jpg" class="top-img z-depth-4" alt="iphone and cofee mug">
+                <img src="assets/images/phone-coffee.jpg" data-aos="fade-left" data-aos-duration="1500" class="top-img z-depth-4" alt="iphone and cofee mug">
             </div>
         </div>
     </div>
 
     <!-- About me section -->
-    <div class="container-lg about-me-container z-depth-4">
+    <div class="container-lg about-me-container z-depth-4" id="about">
         <div class="row">
             <div class="col-md-6">
                 <img src="assets/images/me1.jpg" class="my-photo" alt="Personal Photo">
@@ -113,124 +115,131 @@
         </div>
     </div>
 
-    <hr class="container">
-
     <!-- Resume + Experience section -->
     <div class="container-lg resume-container">
+        <div class="display-4 focus" id="resume">Technologies + Skill Set</div>
         <div class="row">
-            <div class="col-md-8">
-                <div class="display-4 focus" id="resume">Technologies + Skill Set</div>
+            <div class="col-md-6">
                 <br>
-                <div class="lead code-text" data-aos="fade-up" data-aos-duration="2000">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p class="tech">HTML <i class="fab fa-html5 skill-icon"></i></p>
-                                <p class="tech">CSS <i class="fab fa-css3-alt skill-icon"></i></p>
-                                <p class="tech">Bootstrap <i class="fab fa-bootstrap skill-icon"></i></p>
-                                <p class="tech">Materialize</p>
-                                <p class="tech">JavaScript <i class="fab fa-js skill-icon"></i></p>
-                                <p class="tech">React.js <i class="fab fa-react skill-icon"></i></p>
-                                <p class="tech">ReactStrap</p>
-                                <p class="tech">WordPress <i class="fab fa-wordpress-simple"></i></p>
-                            </div>
-                        </div>
-                    </div>
-                <a class="resume" data-aos="fade-up" data-aos-duration="3000" href="assets/resume/JodiTivis-Resume.pdf"
-                    target="_blank"><button class="btn-outline-dark" id="resume-btn" type="button">Full
-                        Resume</button></a>
+                <div class="lead code-text" data-aos="fade-right" data-aos-duration="1500">
+                    <p class="tech">HTML <i class="fab fa-html5 skill-icon"></i></p>
+                    <p class="tech">CSS <i class="fab fa-css3-alt skill-icon"></i></p>
+                    <p class="tech">Bootstrap <i class="fab fa-bootstrap skill-icon"></i></p>
+                    <p class="tech">Materialize</p>
+                    <p class="tech">JavaScript <i class="fab fa-js skill-icon"></i></p>
+                    <p class="tech">jQuery</p>
+                    <p class="tech">React.js <i class="fab fa-react skill-icon"></i></p>
+                    <p class="tech">ReactStrap</p>
+                    <p class="tech">WordPress <i class="fab fa-wordpress-simple"></i></p>
+                    <p class="tech">Adobe Photoshop <i class="fab fa-adobe"></i></p>
+                </div>
             </div>
-            <div class="col-md-4">
-                <img src="assets/images/multiple-objects.jpg" width="375px" height="525px" class="z-depth-4 keyboard-photo"
-                    data-aos="fade-up" data-aos-duration="2000" alt="arranged objects include: macbook, glasses, phone, coffee">
-            </div>
+            <div class="col-md-6">
+                <div class="code-text-about">UI/UX is where dreams and vision come to life. A visual space where clients and users can be captivated by the use of a website is where it all starts.
+                    <br>
+                    <br>
+                    I am proficient with wireframing, turning a vision into a visual, and ultimately bringing the visual to life through code and frameworks.
+                </div>
+                <br>
+                <br>
+                <a class="waves-effect waves-light btn resume" style="background-color: #995c41;" data-aos="fade-up" data-aos-duration="3000" href="assets/resume/JodiTivis-Resume.pdf"
+                target="_blank">Full Resume</a>
+            </div> 
         </div>
     </div>
-
-    <hr class="container">
 
     <!-- Displayed projects section -->
     <div class="center-align projects" id="project-section">Recent Projects</div>
 
     <div class="container-lg" data-aos="fade-up" data-aos-duration="2000">
-        <div class="gallery gallery-responsive portfolio-slider">
-            <div class="inner">
-                <h6 class="app-title">U-Travel</h6>
+        <div class="row">
+            <div class="col-md-6">
                 <div class="photo-container">
-                    <img src="assets/images/beach2.jpeg" class="game-img" alt="Beach">
-                    <div class="overlay">
-                        <div class="text">This application is made with 
-                            <br>
-                            the MERN stack - MongoDB, Express, 
-                            <br>
-                            React, and Node.js. The authentication
-                            <br>
-                            encyrption is managed by Passport.js.
-                            <br>
-                            <br>
-                            Need to plan and budget 
-                            <br>
-                            for your next vacation?
-                            <br>
-                            Use U-Travel!
-                        </div>
-                    </div>
-                </div>
-                <a href="https://u-travel-dt.herokuapp.com/" target="_blank" class="links">view app </a>
-                |
-                <a href="https://github.com/joditivis/U-Travel" target="_blank" class="links"> view code</a>
-            </div>
-            <div class="inner">
-                <h6 class="app-title">Restaurant Finder</h6>
-                <div class="photo-container">
-                    <img src="assets/images/restaurant.jpeg" class="game-img" alt="Restaurant">
-                    <div class="overlay">
-                        <div class="text">A full stack application 
-                            <br>
-                            made with Handlebars, Bootstrap, 
-                            <br>
-                            custom CSS, Node.js, Express, MySQL,
-                            <br>
-                            SurveyJS, Open Street Map API,
-                            <br>
-                            TripAdvisor API and Sequelize ORM.
-                            <br>
-                            <br>
-                            Can't decide where to eat? 
-                            <br>
-                            This app can help!
-                        </div>
-                    </div>
-                </div>
-                <a href="https://best-restaurant.herokuapp.com/" target="_blank" class="links">view app </a>
-                |
-                <a href="https://github.com/joditivis/Project2" target="_blank" class="links"> view code</a>
-            </div>
-            <div class="inner">
-                <h6 class="app-title">Gif-ting</h4>
-                    <div class="photo-container">
-                        <img src="assets/images/christmas.jpeg" class="game-img" alt="Christmas ornaments">
+                    <img src="assets/images/u-travel-screen-display.png" class="website-display website-img" alt="U-Travel App Display">
                         <div class="overlay">
-                            <div class="text">An application made with
-                                <br>
-                                HTML5, CSS3, Bootstrap, Firebase Database, 
-                                <br>
-                                GIPHY API, and Etsy API. 
-                                <br>
-                                <br>
-                                This app is designed to allow 
-                                <br>
-                                you to shop and save gifts for 
-                                <br>
-                                all your favorite people in one place!
-                            </div>
+                            <a class="waves-effect waves-light btn" style="background-color: #161A23;" href="https://u-travel-dt.herokuapp.com/" target="_blank">View App</a>
+                            <br>
+                            <br>
+                            <a class="waves-effect waves-light btn" style="background-color: #161A23;" href="https://github.com/joditivis/U-Travel" target="_blank">View Code</a>
+                            <br>
+                            <br>
+                            <a class="waves-effect waves-light btn" style="background-color: #161A23;" href="https://docs.google.com/document/d/1vR30CvOfhigSX3LQXeMhUuoQHwHGVpSpYfUalBfOXAM/edit?usp=sharing" target="_blank">View Project Plan</a>
                         </div>
-                    </div>
-                    <a href="https://stacyholtz6.github.io/Gif-ting/" target="_blank" class="links">view app </a>
-                    |
-                    <a href="https://github.com/joditivis/Gif-ting" target="_blank" class="links"> view code</a>
+                </div>
+                <h5 style="text-align: center; margin-top: -1rem;">U-Travel</h5>
+                <p style="text-align: center;">UI/UX + Authentication Development</p>
+            </div>
+            <div class="col-md-6">
+                <div class="photo-container">
+                    <img src="assets/images/fcp-screen-scroll.gif" class="website-display website-img" alt="Full Circle Perspective Website Display">
+                        <div class="overlay">
+                            <a class="waves-effect waves-light btn" style="background-color: #161A23;" href="https://www.fullcircleperspective.com/" target="_blank">View Site</a>
+                        </div>
+                </div>
+                <h5 style="text-align: center; margin-top: -1rem;">Full Circle Perspective</h5>
+                <p style="text-align: center;">Custom Brand + Web Design</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="photo-container">
+                    <img src="assets/images/arpathways-scroll.gif" class="website-display website-img" alt="AR Career Pathways Website Display">
+                        <div class="overlay">
+                            <a class="waves-effect waves-light btn" style="background-color: #161A23;" href="https://arpathways.com/" target="_blank">View Site</a>
+                            <br>
+                            <br>
+                            <a class="waves-effect waves-light btn" style="background-color: #161A23;" href="https://github.com/joditivis/CPI-pre-qualification-form" target="_blank">View Code</a>
+                        </div>
+                </div>
+                <h5 style="text-align: center; margin-top: -1rem;">Arkansas Career Pathways</h5>
+                <p style="text-align: center;">Web Design + Custom Coded Conditional Questionnaire</p>
+            </div>
+            <div class="col-md-6">
+                <div class="photo-container">
+                    <img src="assets/images/nyc-wordguess.png" class="website-display website-img" alt="NYC Word Guess App Display">
+                        <div class="overlay">
+                            <a class="waves-effect waves-light btn" style="background-color: #161A23;" href="https://joditivis.github.io/Word-Guess-Game/" target="_blank">Play Game</a>
+                            <br>
+                            <br>
+                            <a class="waves-effect waves-light btn" style="background-color: #161A23;" href="https://github.com/joditivis/Word-Guess-Game" target="_blank">View Code</a>
+                        </div>
+                </div>
+                <h5 style="text-align: center; margin-top: -1rem;">NYC Word Guess</h5>
+                <p style="text-align: center;">UI/UX App Development</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="photo-container">
+                    <img src="assets/images/christmas-trivia.png" class="website-display website-img" alt="Christmas Trivia App Display">
+                        <div class="overlay">
+                            <a class="waves-effect waves-light btn" style="background-color: #161A23;" href="https://joditivis.github.io/TriviaGame/" target="_blank">Play Trivia</a>
+                            <br>
+                            <br>
+                            <a class="waves-effect waves-light btn" style="background-color: #161A23;" href="https://github.com/joditivis/TriviaGame" target="_blank">View Code</a>
+                        </div>
+                </div>
+                <h5 style="text-align: center; margin-top: -1rem;">Christmas Trivia</h5>
+                <p style="text-align: center;">UI/UX App Development</p>
+            </div>
+            <div class="col-md-6">
+                <div class="photo-container">
+                    <img src="assets/images/uawa-scroll.gif" class="website-display website-img" alt="UAWA Website Display">
+                        <div class="overlay">
+                            <a class="waves-effect waves-light btn" style="background-color: #161A23;" href="https://uawa.com/" target="_blank">View Site</a>
+                        </div>
+                </div>
+                <h5 style="text-align: center; margin-top: -1rem;">University of Arkansas Workforce Alliance</h5>
+                <p style="text-align: center;">Web Design</p>
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <h5 class="connect-text" style="text-align: center;">Looking to connect?</h5>
+        <a class="waves-effect waves-light btn contact" style="background-color: #995c41;" id="contact-btn" href="contact.html">Contact</a>
+    </div>
+
 
     <br>
     <br>
@@ -246,9 +255,9 @@
                     <a class="black-text text-lighten-4 icon" href="https://www.facebook.com/jodi.tivis"
                         target="_blank"><i class="fab fa-facebook-f"></i></a>
                 </div>
-                <a class="contact" href="contact.html"><button class="btn-outline-dark" id="contact-btn" type="button">Contact</button></a>
+                <img src="assets/images/jc.png" class="jc-logo" alt="jc (Jodi Creative) logo">
                 <div class="copyright">
-                    © 2020 - Jodi Tivis
+                    © 2020 - Jodi Creative
                 </div>
             </div>
         </div>

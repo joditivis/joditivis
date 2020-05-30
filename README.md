@@ -18,14 +18,12 @@ A simple portfolio webpage created with HTML5, CSS3, Bootstrap, Materialize, Jav
 * jQuery - javascript library (https://jquery.com/)
 * Formspree - (https://formspree.io/)
 * AOS - animate on scroll library (https://michalsnik.github.io/aos/)
-* Slick Carousel - (https://kenwheeler.github.io/slick/)
 * Google Fonts - (https://fonts.google.com/)
 * Font Awesome - social icons (https://fontawesome.com/)
 
 ---
 
-## Achknowledgements:
-Amazing and high quality photos found on https://unsplash.com/
+Photos takes and owned by me
 
 ---
 
